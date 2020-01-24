@@ -1,3 +1,0 @@
-[submodule "packages/ui-library"]
-	path = packages/ui-library
-	url = https://github.com/seek-oss/braid-design-system
