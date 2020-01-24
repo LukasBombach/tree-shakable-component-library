@@ -5,6 +5,7 @@
   "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
   "license": "MIT",
   "private": true,
+  "preinstall": "git submodule init",
   "workspaces": [
     "packages/*"
   ]
