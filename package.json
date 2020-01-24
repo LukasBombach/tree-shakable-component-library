@@ -1,0 +1,11 @@
+{
+  "name": "poc-figma-storybook-next",
+  "version": "1.0.0",
+  "repository": "https://github.com/stroeer/poc-figma-storybook-next",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
