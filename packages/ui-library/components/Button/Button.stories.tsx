@@ -1,6 +1,6 @@
 import React from "react";
 import { withDesign } from "storybook-addon-designs";
-import { Button } from "@storybook/react/demo";
+import Button from "./Button";
 
 export default { title: "Button", component: Button, decorators: [withDesign] };
 
@@ -15,13 +15,7 @@ withText.story = {
   },
 };
 
-export const withEmoji = () => (
-  <Button>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
-);
+export const withEmoji = () => <Button>😀 😎 👍 💯</Button>;
 
 withEmoji.story = {
   parameters: {
