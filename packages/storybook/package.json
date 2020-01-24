@@ -5,12 +5,13 @@
   "scripts": {
     "start": "start-storybook -p 6006 -c .storybook"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "7.8.3",
     "@storybook/react": "5.3.8",
     "babel-loader": "8.0.6",
     "babel-preset-react-app": "9.1.0",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "storybook-addon-designs": "5.1.2"
   }
 }
