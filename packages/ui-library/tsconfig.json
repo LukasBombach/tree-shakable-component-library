@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
     "strict": true,
     "moduleResolution": "Node",
     "target": "ES5",
     "rootDir": "components",
-    "outDir": "dist",
+    "outDir": "lib",
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "declarationDir": "types/lib"
   },
   "include": ["**/*"],
   "exclude": ["**/*.stories.tsx"]

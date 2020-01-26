@@ -1,14 +1,19 @@
 {
-  "name": "storybook",
+  "name": "ui-library",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "start-storybook -p 6006 -c .storybook",
     "build": "tsc"
   },
-  "sideEffects": [
-    "dist/**/*.js"
+  "files": [
+    "lib/**/*.js",
+    "lib/**/*.js.map"
   ],
+  "sideEffects": [
+    "lib/**/*.js"
+  ],
+  "types": "types",
   "devDependencies": {
     "typescript": "3.7.5",
     "@babel/core": "7.8.3",
