@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "start-storybook -p 6006 -c .storybook",
+    "storybook": "start-storybook -p 6006 -c .storybook",
     "build": "tsc"
   },
   "files": [
     "lib/**/*.js",
-    "lib/**/*.js.map"
+    "lib/**/*.js.map",
+    "lib/**/*.d.ts",
+    "lib/**/*.d.ts.map"
   ],
   "sideEffects": [
     "lib/**/*.js"
   ],
-  "types": "types",
   "devDependencies": {
     "typescript": "3.7.5",
     "@babel/core": "7.8.3",

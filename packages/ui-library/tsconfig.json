@@ -9,8 +9,7 @@
     "esModuleInterop": true,
     "declaration": true,
     "declarationMap": true,
-    "sourceMap": true,
-    "declarationDir": "types/lib"
+    "sourceMap": true
   },
   "include": ["**/*"],
   "exclude": ["**/*.stories.tsx"]
