@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "Node",
+    "target": "ES5",
+    "rootDir": "components",
+    "outDir": "dist",
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["**/*"]
+}

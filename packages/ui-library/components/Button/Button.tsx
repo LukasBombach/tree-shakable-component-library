@@ -4,4 +4,4 @@ export interface ButtonProps {
   children?: ReactNode;
 }
 
-export default ({ children }) => <button>{children}</button>;
+export default ({ children }: ButtonProps) => <button>{children}</button>;
