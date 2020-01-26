@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "start-storybook -p 6006 -c .storybook"
+    "start": "start-storybook -p 6006 -c .storybook",
+    "build": "tsc"
   },
-  "dependencies": {
+  "sideEffects": [
+    "dist/**/*.js"
+  ],
+  "devDependencies": {
+    "typescript": "3.7.5",
     "@babel/core": "7.8.3",
     "@storybook/react": "5.3.9",
     "babel-loader": "8.0.6",
@@ -14,7 +19,7 @@
     "react-dom": "16.12.0",
     "storybook-addon-designs": "5.1.2"
   },
-  "devDependencies": {
-    "typescript": "3.7.5"
+  "peerDependencies": {
+    "react": ">=16.x"
   }
 }
