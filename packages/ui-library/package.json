@@ -16,16 +16,17 @@
     "lib/**/*.js"
   ],
   "devDependencies": {
-    "typescript": "3.7.5",
-    "@babel/core": "7.8.3",
-    "@storybook/react": "5.3.9",
+    "@babel/core": "7.8.4",
+    "@storybook/react": "5.3.12",
     "babel-loader": "8.0.6",
-    "babel-preset-react-app": "9.1.0",
+    "babel-preset-react-app": "9.1.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "storybook-addon-designs": "5.1.2"
+    "storybook-addon-designs": "5.2.0",
+    "typescript": "3.7.5"
   },
   "peerDependencies": {
-    "react": ">=16.x"
+    "react": ">=16.x",
+    "react-dom": ">=16.x"
   }
 }
