@@ -2,7 +2,7 @@
 
 This repository is the demonstration of my dev.to article
 
-👉 https://dev.to/lukasbombach/how-to-write-a-tree-shakable-component-library-54el-temp-slug-2574345
+👉 https://dev.to/lukasbombach/how-to-write-a-tree-shakable-component-library-4ied
 
 demonstrating how to implement a tree-shakable component library (with TypeScript, StoryBook & Next.js
 all in a Monorepo).
