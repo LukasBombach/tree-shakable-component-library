@@ -29,7 +29,7 @@ The `app` is a Next.js app that _consumes_ the `ui-library` in the [`index.tsx` 
 You can run the app by switching to the app folder and run `yarn dev` or `yarn start`<sup>\*</sup><br />
 <sub>\* both packages have `postinstall` script that runs `yarn build` in each project</sub>
 
-**Run the app**
+### Run the app
 
 ```bash
 cd packages/app
@@ -38,7 +38,8 @@ yarn dev
 
 You can also run StoryBook from within the `ui-library`
 
-**Run StoryBook**
+*
+### Run StoryBook
 
 ```bash
 cd packages/ui-library
@@ -47,7 +48,7 @@ yarn storybook
 
 You can change or add new components by running
 
-**Develop new components**
+### Develop new components
 
 ```bash
 cd packages/ui-library
