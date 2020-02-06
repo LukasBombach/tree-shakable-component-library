@@ -38,7 +38,6 @@ yarn dev
 
 You can also run StoryBook from within the `ui-library`
 
-*
 ### Run StoryBook
 
 ```bash
