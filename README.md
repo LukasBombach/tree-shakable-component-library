@@ -64,7 +64,7 @@ yarn dev
 ## See the tree-shaking
 
 You can very simple see that the app actually does tree-shake your code by opening this project in a code
-editor and searching all files in [`packages/app/.next`](./packages/app/.next) and
+editor and searching all files in `packages/app/.next` and
 
 1. searching for the string `I SHOULD BE HERE`, which should be found.
    This string is part of the [`Button`](./packages/ui-library/components/Button/Button.tsx) component
