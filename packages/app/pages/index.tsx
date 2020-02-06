@@ -5,7 +5,7 @@ export default function HomePage() {
     <div>
       <h1>Welcome to t-online</h1>
       <p>
-        <Button test="">I'm a button</Button>
+        <Button>I'm a button</Button>
       </p>
     </div>
   );

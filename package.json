@@ -1,7 +1,7 @@
 {
-  "name": "poc-figma-storybook-next",
+  "name": "tree-shakable-component-library",
   "version": "1.0.0",
-  "repository": "https://github.com/stroeer/poc-figma-storybook-next",
+  "repository": "https://github.com/LukasBombach/tree-shakable-component-library",
   "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
   "license": "MIT",
   "private": true,
