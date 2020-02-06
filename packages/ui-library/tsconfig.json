@@ -1,16 +1,14 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "moduleResolution": "Node",
-    "target": "ES5",
-    "rootDir": "components",
-    "outDir": "lib",
-    "jsx": "react",
-    "esModuleInterop": true,
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true
+    "declarationDir": "lib/types",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "ESNext"
   },
-  "include": ["**/*"],
-  "exclude": ["**/*.stories.tsx"]
+  "include": ["components/**/*"],
+  "exclude": ["components/**/*.stories.tsx"]
 }

@@ -5,4 +5,6 @@ export interface LinkProps {
   href?: string;
 }
 
-export default ({ children, href }: LinkProps) => <a href={href}>{children}</a>;
+export default ({ children, href }: LinkProps) => (
+  <a href={href}>I MUST NOT BE HERE</a>
+);
