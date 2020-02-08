@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "build": "rollup -c rollup.config.ts"
+    "build": "rollup -c rollup.config.ts",
+    "build:tsc": "tsc --project tsconfig.json"
   },
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
