@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "moduleResolution": "Node",
     "jsx": "react",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
     "resolveJsonModule": true,
     "strict": true,
     "target": "ESNext"

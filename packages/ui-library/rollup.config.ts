@@ -1,6 +1,8 @@
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
+import postcss from "rollup-plugin-postcss";
+import postcssPresetEnv from "postcss-preset-env";
 import pkg from "./package.json";
 
 export default {
@@ -21,6 +23,13 @@ export default {
     commonjs(),
     typescript({
       useTsconfigDeclarationDir: true,
+    }),
+    postcss({
+      extract: true,
+      modules: true,
+      minimize: true,
+      sourceMap: true,
+      plugins: [postcssPresetEnv()],
     }),
   ],
 };

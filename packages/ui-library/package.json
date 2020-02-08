@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "build": "rollup -c rollup.config.ts",
-    "postinstall": "yarn build"
+    "build": "rollup -c rollup.config.ts"
   },
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -17,11 +16,14 @@
     "@storybook/react": "5.3.12",
     "babel-loader": "8.0.6",
     "babel-preset-react-app": "9.1.1",
+    "postcss-preset-env": "6.7.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "rollup": "1.31.0",
+    "rollup-plugin-postcss": "2.0.6",
     "rollup-plugin-typescript2": "0.25.3",
-    "typescript": "3.7.5"
+    "typescript": "3.7.5",
+    "typescript-plugin-css-modules": "2.1.2"
   },
   "peerDependencies": {
     "react": ">=16.8",
