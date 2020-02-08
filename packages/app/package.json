@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "postinstall": "yarn build"
+    "start": "next start"
   },
   "dependencies": {
     "next": "9.2.1",
