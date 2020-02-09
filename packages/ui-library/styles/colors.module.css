@@ -1,0 +1,17 @@
+:root {
+  --brand: #e20074;
+  --primary: #171b26;
+  --accent: #5a78e6;
+
+  --text-dark: #171b26;
+  --text-white: #ffffff;
+  --text-medium: #474c59;
+  --text-light: #8d93a6;
+
+  --ui-mid-grey: #cfd5e5;
+  --ui-grey: #ebeff7;
+  --ui-light-grey: #f7f9fc;
+
+  --secondary-green: #acb73d;
+  --secondary-red: #d90000;
+}
