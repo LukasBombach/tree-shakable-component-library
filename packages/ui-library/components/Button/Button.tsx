@@ -1,10 +1,8 @@
 import React, { ReactNode } from "react";
-import styles from "./Button.module.css";
+import Button from "../../primitives/Button";
 
 export interface ButtonProps {
   children?: ReactNode;
 }
 
-export default ({ children }: ButtonProps) => (
-  <button className={styles.button}>I SHOULD BE HERE</button>
-);
+export default ({ children }: ButtonProps) => <Button>{children}</Button>;
