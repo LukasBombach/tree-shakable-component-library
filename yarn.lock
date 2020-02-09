@@ -1747,6 +1747,21 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-native@*":
+  version "0.61.12"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.61.12.tgz#058c80f5aadb99b6cac1cf648e996b7795ca0fab"
+  integrity sha512-9Do0pTN9H3hnon0LUCTqIC5fCmFpKU5V8rJEH2iAAsCRm8+2Q7zPUMKuCaSRbO5zhXMW5oC8IE0nCfg1kqyXvw==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-primitives@0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@types/react-primitives/-/react-primitives-0.6.2.tgz#c1490667968a42029ed6eb4555808e1542e9ccd8"
+  integrity sha512-ysoEAizdgBimimfEpHt7d/xDkfF0NkMP7Me89cAyQVEJ8klCcad+jqUg5fFDVj7N3+9ESmmTXHtqaL7ZA6zT7g==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
 "@types/react-syntax-highlighter@11.0.2":
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/@types/react-syntax-highlighter/-/react-syntax-highlighter-11.0.2.tgz#a2e3ff657d7c47813f80ca930f3d959c31ec51e3"

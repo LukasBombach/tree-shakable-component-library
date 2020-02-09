@@ -17,7 +17,7 @@ export default {
       format: "es",
     },
   ],
-  external: ["react"],
+  external: ["react", "react-primitives"],
   plugins: [
     resolve(),
     commonjs(),
